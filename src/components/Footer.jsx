@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="fixed overflow-y-auto  bottom-0 left-0 w-full h-10 flex flex-row justify-center items-center  bg-blue-400">
+    <div className=" overflow-y-auto  bottom-0 left-0 w-full h-10 flex flex-row justify-center items-center  bg-blue-600">
       <div className="w-1/4 h-full text-white font-bold flex justify-start items-center text-lg"> © elearn.com 2024</div>
       <div className='w-2/4 h-full font-bold flex flex-row justify-end items-center gap-8 '>
         <a href='#' target='_blank' className='h-8 w-8 rounded-md flex justify-end items-center'>

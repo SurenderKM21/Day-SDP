@@ -16,8 +16,8 @@ const SearchSection = () => {
   };
 
   return (
-    <div className="p-32 rounded-lg shadow-lg bg-white">
-      <h2 className="text-3xl font-bold text-black mb-4 text-center">Search for Courses</h2>
+    <div className="p-32 rounded-lg shadow-lg">
+      <h2 className="text-3xl font-bold dark:text-white mb-4 text-center">Search for Courses</h2>
       <div className="border-b-4 border-blue-600 mb-16 mx-auto w-20"></div>
       <form onSubmit={handleSubmit} className="flex flex-row items-center justify-center gap-4">
         <div className="relative flex-grow">
@@ -26,7 +26,7 @@ const SearchSection = () => {
             value={query}
             onChange={handleChange}
             placeholder="Search courses..."
-            className="w-full p-3 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 pl-10"
+            className="w-full p-3 border border-blue-300 rounded-lg bg-slate-300/10 focus:outline-none focus:ring-2 focus:ring-blue-500 pl-10"
           />
           <span className="absolute inset-y-0 left-0 flex items-center pl-3">
             <Search className="h-5 w-5 text-gray-500" />

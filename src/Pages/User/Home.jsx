@@ -1,5 +1,5 @@
 import React from 'react';
-import OpaqueCircle from './round';
+import OpaqueCircle from '@/components/round';
 import TopCourses from './Courses';
 import SearchSection from './Search';
 
